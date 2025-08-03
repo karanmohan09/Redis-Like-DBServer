@@ -48,7 +48,8 @@ chmod +x test_100_clients.sh
 |del key      |Delete string value based on a Key|
 |keys         |Returns all Keys present in the Database|
 |clear        |Clears out All Keys|
-##AOF Format
+
+## AOF Format
 - All write commands(set, del, clear) are logged in a binary AOF file
 - File is replayed on server startup to restore data
 - Automatically compacts every 1000 commands
