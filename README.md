@@ -41,10 +41,11 @@ chmod +x test_100_clients.sh
 
 | Command	    |  Description....|
 |---------------|-----------------| 
-|set key value  |Set string value |
-|get key	    |Get string value |
-|del key      |Delete string value based on Key|
-|clear        |Clears out All keys|
+|set key value  |Set string value for a Key|
+|get key	    |Get string value for a Key|
+|del key      |Delete string value based on a Key|
+|keys         |Returns all Keys present in the Database|
+|clear        |Clears out All Keys|
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
